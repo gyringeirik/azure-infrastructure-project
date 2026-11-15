@@ -6,5 +6,6 @@ with Microsoft Azure as the primary platform.
 ## Environment
 
 - macOS
-- WSL2
-- Ubuntu Linux
+- Terraform
+- Azure
+- GitHub
