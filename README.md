@@ -5,6 +5,6 @@ with Microsoft Azure as the primary platform.
 
 ## Environment
 
-- Windows 11
+- macOS
 - WSL2
 - Ubuntu Linux
