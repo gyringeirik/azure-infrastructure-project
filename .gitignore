@@ -5,10 +5,3 @@
 *.tfplan
 crash.log
 .DS_Store
-
-**/.terraform/
-*.tfstate
-*.tfstate.*
-*.tfplan
-
-.DS_Store
