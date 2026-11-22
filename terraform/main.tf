@@ -48,7 +48,16 @@ resource "azurerm_storage_account" "lab" {
     environment = "lab"
     project     = "terraform-learning"
   }
+
+  blob_properties {
+    versioning_enabled = true
+
+    delete_retention_policy {
+      days = 7
+    }
+  }
 }
+
 
 output "storage_account_name" {
   value = azurerm_storage_account.lab.name
