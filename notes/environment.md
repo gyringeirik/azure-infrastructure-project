@@ -2,19 +2,12 @@
 
 ## Host
 
-Windows 11
-
-## Linux Environment
-
-WSL2 with Ubuntu
+macOS
 
 ## Purpose
 
-The Linux environment will be used for:
+The environment will be used for:
 
 - Git
 - Infrastructure as Code
 - Azure CLI
-- scripting
-- Linux administration
-- automation
