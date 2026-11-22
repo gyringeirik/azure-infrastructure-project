@@ -1,13 +1,14 @@
-# Development Environment
+# Utviklingsmiljø
 
-## Host
+Jeg brukte macOS, Terraform, Azure CLI og Azure-portalen.
 
-macOS
 
-## Purpose
+## Azure-ressurser
 
-The environment will be used for:
+- Ressursgruppe for labprosjektet.
+- Azure Storage-konto opprettet med Terraform.
 
-- Git
-- Infrastructure as Code
-- Azure CLI
+## Verifisering
+
+Jeg sjekket at ressursgruppen og lagringskontoen var synlige i Azure-portalen
+og at begge dukket opp i `terraform state list`.
