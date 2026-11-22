@@ -1,0 +1,32 @@
+
+name: Terraform Validation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v4
+
+      - name: Terraform Checks
+        shell: bash
+        run: |
+          if [ -f terraform/main.tf ]; then
+            cd terraform
+          elif [ -f labs/01-azure-basics/main.tf ]; then
+            cd labs/01-azure-basics
+          fi
+          terraform fmt -check
+          terraform init -backend=false -input=false
+          terraform validate
