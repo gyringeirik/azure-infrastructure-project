@@ -42,6 +42,18 @@ flowchart TD
 | Subnet | Network segmentation |
 | Network Security Group | Network traffic control |
 
+
+## Verification
+
+**Blob Storage recovery**  
+![Restored test file in Azure Blob Storage](docs/blob-recovery.png)
+
+**Terraform validation**  
+![Successful Terraform validation in GitHub Actions](docs/erraform-validation.png)
+
+[See the Blob Storage test steps](notes/environment.md#verifisering)
+
+
 ## Deployment
 
 Prerequisites: Terraform, Azure CLI and an Azure
@@ -73,10 +85,4 @@ Review the deployment plan with `terraform plan` before running `terraform apply
 
 Azure infrastructure deployed and managed with Terraform.
 
-## Future Improvements
-
-- Remote Terraform state in Azure Blob Storage
-- Reusable Terraform modules
-- Automated Azure deployment with GitHub Actions
-```
 
