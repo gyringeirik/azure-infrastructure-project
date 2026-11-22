@@ -8,6 +8,10 @@ Microsoft Azure, Terraform, Azure CLI and GitHub.
 This project demonstrates how to provision and manage
 Azure infrastructure using Infrastructure as Code (IaC).
 
+[Blob Storage recovery test](notes/environment.md#verifisering)
+
+
+
 ## Architecture
 
 ```mermaid
