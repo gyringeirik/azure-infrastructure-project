@@ -58,11 +58,10 @@ terraform apply
 
 Run Terraform commands from the directory containing main.tf.
 
-## CI/CD
+## Local Validation and Deployment
 
-GitHub Actions automatically runs Terraform formatting
-and configuration validation on pushes and pull requests.
-Infrastructure deployment is performed locally.
+Run `terraform validate` from the `terraform/` directory after `terraform init`.
+Review the deployment plan with `terraform plan` before running `terraform apply`.
 
 ## Security
 
