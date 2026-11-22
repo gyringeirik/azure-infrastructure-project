@@ -49,7 +49,7 @@ flowchart TD
 ![Restored test file in Azure Blob Storage](docs/blob-recovery.png)
 
 **Terraform validation**  
-![Successful Terraform validation in GitHub Actions](docs/erraform-validation.png)
+![Successful Terraform validation in GitHub Actions](docs/terraform-validation.png)
 
 [See the Blob Storage test steps](notes/environment.md#verifisering)
 
